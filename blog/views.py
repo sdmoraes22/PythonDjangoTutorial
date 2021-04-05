@@ -5,5 +5,5 @@ from .models import Post
 class PostListView(ListView):
     model = Post
 
-class PostDetailVire(DetailView):
+class PostDetailView(DetailView):
     model = Post
